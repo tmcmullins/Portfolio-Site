@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css?family=News+Cycle:400,700');
+
+/*Main*/
+
+body {
+	display: block;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+.main {
+	max-width: 100%;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+/*Identity*/
+
+.logo_container {
+	display: block;
+	text-align: center;
+}
+
+.logo {
+	width: 100px;
+	padding: 10px;
+}
+
+.name {
+	text-align: center;
+}
+
+h1 {
+	font-size: 2em;
+	margin-right: 0;
+	font-family: georgia;
+}
+
+.occupation {
+	font-family: 'News Cycle', sans-serif;
+	font-size: 16px;
+	letter-spacing: 1px;
+	margin-bottom: 30px;
+}
+
+/*Featured Work*/
+
+.hero {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	border-top: 7px solid #c8141f;
+}
+
+h2 {
+	text-align: center;
+	margin-top: 10px;
+	font-family: georgia;
+	color: #555;
+}
+
+/*About Me & My Work*/
+
+.hello {
+	font-size: 19px;
+	font-weight: 700;
+}
+
+p {
+	line-height: 1.75em;
+	font-family: 'News Cycle', sans-serif;
+	font-size: 18px;
+}
+
+strong {
+	font-size: 18px;
+	font-weight: 700;
+}
+
+/*Portfolio*/
+
+.portfolio {
+	margin: auto;
+	padding-bottom: 50px;
+}
+
+.project {
+	text-align: center;
+	margin: 60px 0;
+}
+
+.render {
+	width: 555px;
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: auto;
+	border: 2px solid silver;	
+}
+
+h3 {
+	font-family: georgia;
+	font-size: 20px;
+	font-weight: bold;
+	color: #555;
+}
+
+a {
+	font-family: 'News Cycle', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+/*Responsiveness*/
+
+@media screen and (min-width: 750px) {
+
+	.col-3 {
+		width: 25%;
+	}
+
+	.col-6 {
+		width: 47%;
+	}
+
+	.col-9 {
+		width: 75%;
+	}
+
+	.col-12 {
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+
+	body {
+		background-color: #222;
+	}
+
+	.main {
+		background-color: white;
+	}
+
+	.featured {
+		padding: 0 15px;
+	}
+
+	/*Identity*/
+
+	header {
+		padding: 30px 0;
+		margin-bottom: 25px;
+		background-color: #222;
+		color: white;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	.logo_container {
+		text-align: left;
+		padding-top: 3px;
+	}
+
+	.logo {
+		width: 150px;
+		padding: 0;
+	}
+
+	.name {
+		text-align: right;
+	}
+
+	h1 {
+		font-size: 3em;
+		margin: 0;
+		padding-top: 5px;
+	}
+
+	.occupation {
+		font-size: 18px;
+		letter-spacing: 1.6px;
+		margin: 10px 0;
+	}
+
+	/*Featured Work*/
+
+	h2 {
+		font-size: 30px;
+	}
+
+	.about {
+		width: 750px;
+		max-width: 90%;
+		margin: 0 auto;
+	}
+
+	/*About Me & My Work*/
+
+	.hello {
+		font-size: 21px;
+		font-weight: 700;
+	}
+
+	p {
+		line-height: 1.75em;
+		font-size: 20px;
+	}
+
+	strong {
+		font-size: 21px;
+	}
+
+	/*Portfolio*/
+
+	.project {
+		text-align: center;
+		margin: 20px 0;
+	}
+
+	h3 {
+		font-size: 23px;
+	}
+}
